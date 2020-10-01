@@ -5,11 +5,11 @@
  int top=-1;
  int main()
  {   int n,x,n1=1;
-     printf("enter the size of the stack");
+     printf("Enter the size of the stack: ");
      scanf("%d",&n);
      int arr[n];
      while(n1!=0)
-     {    printf("\n1->TO PUSH\n2->TO POP\n3->TO DISPLAY ");
+     {    printf("\n1->PUSH AN ELEMENT\n2->POP AN ELEMENT\n3->DISPLAY STACK");
           scanf("%d",&x);
          switch(x)
          {
