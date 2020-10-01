@@ -77,8 +77,7 @@ int main()
 {  int n4=1,n;
     while(n4!=6)
     {
-        printf("\n***CHOOSE ANY ONE***");
-        printf("\n1->CREATE LINKED LIST\n2->INSERT\n3->INSERT AT POS\n4->DISPLAY\n5->INSERT AT BEGINNING\n6->EXIT\n");
+        printf("\n1->CREATE LINKED LIST\n2->INSERT\n3->INSERT AT POSITION\n4->DISPLAY\n5->INSERT AT THE BEGINNING\n6->EXIT\n");
         scanf("%d",&n);
         
         switch(n)
@@ -103,7 +102,5 @@ int main()
        
         
     }
-    
-    
     printf("\n***THANK YOU***");
 }
